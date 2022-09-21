@@ -1,0 +1,18 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PALETTE COLORI */
+:root{
+    --black: #000;
+    --black-opacity: rgba(0, 0, 0, 0.50);
+    --gray: rgb(117, 116, 116);
+    --deep-blue: rgb(21, 25, 33);
+    --white: #fff;
+    --lime-green: rgb(192, 251, 91);
+    --dark-grey: rgb(40, 40, 40);
+}
