@@ -338,6 +338,49 @@
     padding: 2px;
 }
 
+.section-side-1, .section-side-2{
+    padding-left: 1rem;
+}
 
+.text-playlist{
+    font-size: 1.1rem;
+}
 
+.section-side-2 h4{
+    padding-left: 0.5rem;
+}
 
+.icon-side i{
+    font-size: 1.2rem;
+}
+
+.fa-square-plus{
+    font-size: 1.3rem;
+}
+
+/* EFFETTO HOVER SU SIDE TOP */
+
+.container-icon:hover .icon-side{
+    cursor: pointer;
+    color: var(--white);
+}
+
+.container-icon:hover .text-side{
+    cursor: pointer;
+    color: var(--white);
+}
+
+.section-side-2:hover .title-playlist{
+    cursor: pointer;
+    color: var(--white);
+}
+
+.section-side-2:hover .container-section-side-4{
+    cursor: pointer;
+    color: var(--white);
+}
+
+.nuovo-section-side-4:hover .nuovo{
+    cursor: pointer;
+    color: var(--white);
+}
