@@ -107,11 +107,15 @@
 
 .color-li{
     color: var(--gray);
+    padding-bottom: 3px;
 }
 
 #nav-main-content ul li{
     list-style: none;
     padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .bar-lime{
@@ -122,6 +126,7 @@
     position: relative;
     align-items: center;
     width: 80px;
+    display: none;
 }
 
 .space-bar-left, .space-bar-right{
@@ -139,6 +144,13 @@
     position: absolute;
     bottom: -1;
     right: 0;
+}
+
+/* EFFETTO HOVER SU LI */
+
+.nav-hover:hover .container-bar-lime{
+    cursor: pointer;
+    display: block; 
 }
 
 /* SEZIONE 1 */
