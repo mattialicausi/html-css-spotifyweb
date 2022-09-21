@@ -16,3 +16,49 @@
     --lime-green: rgb(192, 251, 91);
     --dark-grey: rgb(40, 40, 40);
 }
+
+/* DIMENSIONI LAYOUT */
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    color: green;
+}
+/* BLOCCO 1 */
+
+#container-main{
+    height: calc(100% - 95px);
+    display: flex;
+}
+
+#container-footer{
+    width: 100%;
+    height: 95px;
+    background-color: var(--dark-grey);
+}
+/* BLOCCO 2 */
+
+#side-bar{
+    width: 230px;
+    height: 100%;
+    background-color: var(--black);
+}
+
+#main-content-container{
+    width: 100%;
+    height: 100%;
+}
+
+/* BLOCCO 3 */
+
+#header{
+    height: 95px;
+    width: 100%;
+    background-color: var(--black-opacity);
+}
+
+#main-content{
+    width: 100%;
+    height: calc(100% - 95px);
+    background-color: var(--deep-blue);
+}
+/* FINE DIVISIONI IN BLOCCHI */
