@@ -474,7 +474,6 @@
 }
 
 
-
 .blocco-2-left-footer{
     border: 1px solid orange;
 }
@@ -482,5 +481,19 @@
     border: 1px solid green;
 }
 
+/* MODIFICO BLOCCO LEFT FOOTER */
+
+
+.container-img-footer img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.container-title-footer{
+    color: var(--white);
+
+}
 
 
