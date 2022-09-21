@@ -46,6 +46,8 @@
 #main-content-container{
     width: 100%;
     height: 100%;
+    background-color: var(--deep-blue);
+    overflow-y: auto;
 }
 
 /* BLOCCO 3 */
@@ -53,12 +55,17 @@
 #header{
     height: 95px;
     width: 100%;
-    background-color: var(--black-opacity);
+    background-color: rgba(0, 0, 0, 0.70);
+    /* POSIZIONE FISSA */
+
+    position: fixed;
+    top: 0;
+    z-index: 2000;
 }
 
 #main-content{
     width: 100%;
-    height: calc(100% - 95px);
+    height: 100%;
     background-color: var(--deep-blue);
 }
 /* FINE DIVISIONI IN BLOCCHI */
