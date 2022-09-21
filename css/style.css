@@ -151,8 +151,12 @@
 }
 
 .container-cards img{
-    width: 100%;
-    
+    width: 100%;  
+}
+
+.container-cards h3, .subtitle-h3{
+    text-align: center;
+    padding: 0.2rem;
 }
 
 .container-section h3{
@@ -166,6 +170,7 @@
 .h2-main-section{
     color: var(--white);
     padding-bottom: 3rem;
+    padding-top: 3rem;
     padding-left: 0.75rem;
 }
 
@@ -191,4 +196,56 @@
     cursor: pointer;
 }
 
+.container-cards-2:hover .img-card{
+    opacity: 0.50;
+    cursor: pointer;
+}
+
+.container-cards-2:hover .fa-circle-play{
+    display: block;
+    cursor: pointer;
+}
+
+/* MODIFICHE PER LA SEZIONE 2 */
+
+.container-cards-2{
+    width: calc((100% - 1.50rem) / 6);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    position: relative;
+}
+
+.dimension{
+    width: 300px;
+    height: 300px;
+    background-color: var(--deep-blue);
+    border: 1px solid yellow;
+}
+
+.container-cards-2 img{
+    width: 100%;  
+}
+
+.subtitle-2{
+    margin-left: 0.75rem;
+    margin-top: -1rem;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+/* MODIFICHE PER LA SEZIONE 3 */
+
+.circle-img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-cards-2 h3{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.padding-ultima-section{
+    padding-bottom: 3rem;
+}
 
