@@ -36,6 +36,10 @@
     justify-content: center;
 }
 
+.j-end{
+    justify-content: flex-end;
+}
+
 .j-between{
     justify-content: space-between;
 }
@@ -300,7 +304,6 @@
 /* MODIFICO SIDE BAR */
 #top-side, #bottom-side{
     height: 50%;
-    border: 1px solid yellow;
 }
 
 /* SEZIONE 1 LOGO */
@@ -335,7 +338,7 @@
 }
 
 .nuovo, h4, .text-side, .text-playlist, .container-icon{
-    padding: 2px;
+    padding: 5px;
 }
 
 .section-side-1, .section-side-2{
@@ -384,3 +387,72 @@
     cursor: pointer;
     color: var(--white);
 }
+
+/* MODIFICO SIDE BOTTOM */
+
+#bottom-side{
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.bottom-side i{
+    font-size: 1.2rem;
+}
+
+.download{
+    padding-bottom: 10px;
+}
+
+.footer-side-bottom{
+    padding-top: 10px;
+}
+
+/* CREO LINEA GRIGIA */
+
+.line-grey{
+    border: 1px solid grey;
+}
+
+.container-linegray{
+    position: relative;
+    width: 150px;
+}
+
+.line-left{
+    width: 0;
+    height: 10px;
+    background-color: var(--black);
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.line-right{
+    width: 8px;
+    height: 10px;
+    background-color: var(--black);
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+
+/* AGGIUNGO EFFETTI HOVER SU SIDE BOTTOM */
+
+.bottom-side-hover:hover .download{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.bottom-side-hover-2:hover .footer-side-bottom{
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+
+
