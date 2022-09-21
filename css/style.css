@@ -310,14 +310,14 @@
 
 .logo-1{
     height: 3rem;
-    display: flex;
-    justify-content: center;
+
 }
+
 .logo-1 img{
     width: 8rem;
-    padding-top: 1rem;
-    
+    padding-top: 1rem;   
 }
+
 .logo-d-576{
     width: 3rem;
     display: none;
@@ -400,7 +400,7 @@
     padding-bottom: 0.5rem;
 }
 
-.bottom-side i{
+.icon-bottom{
     font-size: 1.2rem;
 }
 
@@ -453,6 +453,34 @@
     cursor: pointer;
 }
 
+/* MODIFICO FOOTER PLAY */
+
+#container-footer{
+    width: 100%;
+    height: 100%;
+}
+
+.blocco-1-footer{
+    width: calc(100% / 3);
+    border: 1px solid yellow;
+}
+
+.blocco-2-left-footer, .blocco-2-right-footer{
+    width: calc(100% / 2);
+}
+
+.center-footer{
+    border: 1px solid blue;
+}
+
+
+
+.blocco-2-left-footer{
+    border: 1px solid orange;
+}
+.blocco-2-right-footer{
+    border: 1px solid green;
+}
 
 
 
