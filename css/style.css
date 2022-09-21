@@ -157,6 +157,10 @@
     display: block; 
 }
 
+.nav-hover:hover .color-li{
+    color: var(--white);
+}
+
 /* SEZIONE 1 */
 
 .container-cards{
@@ -276,12 +280,58 @@
     text-align: center;
     width: 260px;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     right: 220px;
 }
 
 .relativo-bottone{
     position: relative;
+}
+
+/* HOVER SUL BOTTONE */
+.btn-header:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* MODIFICO SIDE BAR */
+#top-side, #bottom-side{
+    height: 50%;
+    border: 1px solid yellow;
+}
+
+/* SEZIONE 1 LOGO */
+
+.logo-1{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.logo-1 img{
+    width: 8rem;
+    padding-top: 1rem;
+    
+}
+.logo-d-576{
+    width: 3rem;
+    display: none;
+}
+
+/* SEZIONE 2 SIDE BAR */
+
+.section-side-2{
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.text-side{
+    justify-content: center;
 }
 
 
