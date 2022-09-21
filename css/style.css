@@ -48,6 +48,10 @@
     display: block;
 }
 
+.j-end{
+    justify-content: end;
+}
+
 /* DIMENSIONI LAYOUT */
 .wrapper{
     height: 100vh;
@@ -260,4 +264,24 @@
 .padding-ultima-section{
     padding-bottom: 3rem;
 }
+
+/* BOTTONE IN HEADER */
+.btn-header{
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: var(--black-opacity);
+    padding: 10px;
+    border-radius: 17px ;
+    font-size: 1rem;
+    text-align: center;
+    width: 260px;
+    position: absolute;
+    bottom: 10px;
+    right: 220px;
+}
+
+.relativo-bottone{
+    position: relative;
+}
+
 
