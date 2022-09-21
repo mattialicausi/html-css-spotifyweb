@@ -334,4 +334,10 @@
     justify-content: center;
 }
 
+.nuovo, h4, .text-side, .text-playlist, .container-icon{
+    padding: 2px;
+}
+
+
+
 
