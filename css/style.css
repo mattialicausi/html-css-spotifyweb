@@ -198,7 +198,7 @@
     padding-left: 0.75rem;
 }
 
-.fa-circle-play{
+.play-none{
     color: var(--white);
     background-color: rgba(0, 0, 0, 0.0);
     font-size: 3rem;
@@ -215,7 +215,7 @@
     cursor: pointer;
 }
 
-.container-cards:hover .fa-circle-play{
+.container-cards:hover .play-none{
     display: block;
     cursor: pointer;
 }
@@ -225,7 +225,7 @@
     cursor: pointer;
 }
 
-.container-cards-2:hover .fa-circle-play{
+.container-cards-2:hover .play-none{
     display: block;
     cursor: pointer;
 }
@@ -458,6 +458,9 @@
 #container-footer{
     width: 100%;
     height: 100%;
+    color: grey;
+    justify-content: center;
+    text-align: center;
 }
 
 .blocco-1-footer{
@@ -465,20 +468,8 @@
     border: 1px solid yellow;
 }
 
-.blocco-2-left-footer, .blocco-2-right-footer{
-    width: calc(100% / 2);
-}
-
 .center-footer{
     border: 1px solid blue;
-}
-
-
-.blocco-2-left-footer{
-    border: 1px solid orange;
-}
-.blocco-2-right-footer{
-    border: 1px solid green;
 }
 
 /* MODIFICO BLOCCO LEFT FOOTER */
@@ -488,12 +479,108 @@
     width: 70px;
     height: 70px;
     object-fit: cover;
-    padding: 10px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.title-footer{
+    color: var(--white);
 }
 
 .container-title-footer{
-    color: var(--white);
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
+.container-icon-img-footer{
+    padding-top: 40px;
+}
+
+.fa-heart{
+    padding-right: 10px;
+}
+
+/* EFFETTI HOVER SU BLOCCO LEFT FOOTER */
+
+.container-icon-img-footer:hover .left-footer-hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--white);
+}
+
+
+/* MODIFICO BLOCCO CENTRALE FOOTER */
+
+.container-icon-center-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* MODIFICO BARRA PLAY */
+
+.container-barra-play{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   align-items:center;
+}
+
+.icon-center-footer{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.time-play{
+    color: var(--white);
+}
+
+.icon-center-footer i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.barra-play{
+    height: 5px;
+    background-color: grey;
+    width: 250px;
+    margin: 15px;
+    border-radius: 2px;
+}
+
+.barra-play-lime{
+    width: 90px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: var(--white);
+    position: relative;
+}
+
+.circle-barra-play-lime{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--lime-green);
+    position: absolute;
+    top:-5px;
+    right:0;
+    display: none;
+}
+
+/* EFFETTO HOVER SU FOOTER CENTRALE */
+
+.barra-play:hover .circle-barra-play-lime{
+    cursor: pointer;
+    display: block;
+}
+
+.barra-play:hover .barra-play-lime{
+    background-color: var(--lime-green);
+}
+
+.play-hover:hover .hover-play{
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 
