@@ -737,10 +737,24 @@
     }
     .logo-d-576{
         display: block;
+        font-size: 1.5rem;
+        padding-top: 1rem;
     }
 
+    #top-side{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0.5rem;
+    }
+    .container-section-side-4{
+        padding-left: 0.5rem;
+    }
     #side-bar{
         width: 100px;
+    }
+
+    .icon-footer-side, .download{
+        padding-left: 1rem;
     }
 
 }
