@@ -550,7 +550,7 @@
 }
 
 .icon-center-footer{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--white);
 }
 
@@ -681,12 +681,15 @@
 
    .container-icon-left-footer{
     flex-direction: column;
+    font-size: 1rem;
 }
     .icon-992px{
         padding-right: 0.80rem;
         padding-top: 0.20rem;
     }
-    
+    .icon-center-footer{
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -726,5 +729,18 @@
     .icon-right-footer i{
         padding-left: 0.2rem;
         padding-right: 0.2rem;
-}
+    }
+        /* MODIFICO SIDE */
+
+    .d-none575px{
+        display: none;
+    }
+    .logo-d-576{
+        display: block;
+    }
+
+    #side-bar{
+        width: 100px;
+    }
+
 }
