@@ -147,9 +147,6 @@
 
 .space-bar-right{
     width: 10px;
-    height: 3px;
-    background-color: var(--deep-blue);
-    position: absolute;
     bottom: -1;
     right: 0;
 }
@@ -167,7 +164,7 @@
 
 /* SEZIONE 1 */
 
-.container-cards{
+.container-cards, .container-cards-2{
     width: calc((100% - 1.50rem) / 6);
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -178,7 +175,7 @@
     flex-wrap: wrap;
 }
 
-.container-cards img{
+.container-cards img, .container-cards-2 img{
     width: 100%;  
 }
 
@@ -219,7 +216,7 @@
     cursor: pointer;
 }
 
-.container-cards:hover .play-none{
+.container-cards:hover .play-none, .container-cards-2:hover .play-none{
     display: block;
     cursor: pointer;
 }
@@ -229,29 +226,13 @@
     cursor: pointer;
 }
 
-.container-cards-2:hover .play-none{
-    display: block;
-    cursor: pointer;
-}
-
 /* MODIFICHE PER LA SEZIONE 2 */
-
-.container-cards-2{
-    width: calc((100% - 1.50rem) / 6);
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    position: relative;
-}
 
 .dimension{
     width: 300px;
     height: 300px;
     background-color: var(--deep-blue);
     border: 1px solid yellow;
-}
-
-.container-cards-2 img{
-    width: 100%;  
 }
 
 .subtitle-2{
@@ -375,33 +356,15 @@
     min-height: 100px;
 }
 
-
 /* EFFETTO HOVER SU SIDE TOP */
 
 .container-icon:hover{
     border-left-color: var(--lime-green) ;
 }
-.container-icon:hover .icon-side{
-    cursor: pointer;
-    color: var(--white);
-}
 
-.container-icon:hover .text-side{
-    cursor: pointer;
-    color: var(--white);
-}
-
-.section-side-2:hover .title-playlist{
-    cursor: pointer;
-    color: var(--white);
-}
-
-.section-side-2:hover .container-section-side-4{
-    cursor: pointer;
-    color: var(--white);
-}
-
-.nuovo-section-side-4:hover .nuovo{
+.container-icon:hover .icon-side, .container-icon:hover .text-side, .section-side-2:hover .title-playlist,
+.section-side-2:hover .container-section-side-4, .nuovo-section-side-4:hover .nuovo, 
+.bottom-side-hover-2:hover .footer-side-bottom,.bottom-side-hover:hover .download{
     cursor: pointer;
     color: var(--white);
 }
@@ -459,18 +422,6 @@
     right: 0;
 }
 
-/* AGGIUNGO EFFETTI HOVER SU SIDE BOTTOM */
-
-.bottom-side-hover:hover .download{
-    color: var(--white);
-    cursor: pointer;
-}
-
-.bottom-side-hover-2:hover .footer-side-bottom{
-    color: var(--white);
-    cursor: pointer;
-}
-
 /* MODIFICO FOOTER */
 
 #container-footer{
@@ -491,12 +442,10 @@
 } 
 /* MODIFICO BLOCCO LEFT FOOTER */
 
-
 .container-img-footer img{
     width: 4.3rem;
     height: 4.3rem;
     object-fit: cover;
-    /* padding-top: 1.5rem; */
     padding-left: 1rem;
 }
 
@@ -510,7 +459,6 @@
     margin-right: 1.87rem;
 }
 
-
 .fa-heart{
     padding-right: 1rem;
 }
@@ -520,10 +468,6 @@
     padding-top: 2.5rem;
 }
 
-/* .container-icon-img-footer{
-    padding-top: 2.5rem;
-} */
-
 /* EFFETTI HOVER SU BLOCCO LEFT FOOTER */
 
 .container-icon-img-footer:hover .left-footer-hover{
@@ -531,7 +475,6 @@
     cursor: pointer;
     color: var(--white);
 }
-
 
 /* MODIFICO BLOCCO CENTRALE FOOTER */
 
@@ -608,10 +551,6 @@
 
 /* MODIFICO BLOCCO RIGHT FOOTER */
 
-/* .container-barra-play-2{
-   align-items:center;
-} */
-
 .barra-play-2{
     height: 5px;
     background-color: grey;
@@ -648,13 +587,12 @@
 
 /* EFFETTI HOVER BLOCCO RIGHT FOOTER */
 
-
 .barra-play-2:hover .circle-barra-play-lime{
     cursor: pointer;
     display: block;
 }
 
-.barra-play-2:hover .barra-play-lime{
+.barra-play-2:hover .barra-play-lime-2{
     background-color: var(--lime-green);
 }
 
@@ -693,7 +631,6 @@
 
 }
 
-
 /* MEDIA MAX WIDTH 768PX */
 
 @media screen and (max-width: 768px){
@@ -701,7 +638,6 @@
         width: calc((100% - 1.50rem) / 2);
    }
 }
-
 
 /* MEDIA MAX WIDTH 575PX */
 
