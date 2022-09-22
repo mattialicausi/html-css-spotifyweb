@@ -357,8 +357,16 @@
     font-size: 1.3rem;
 }
 
+.container-icon{
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
 /* EFFETTO HOVER SU SIDE TOP */
 
+.container-icon:hover{
+    border-left-color: var(--lime-green) ;
+}
 .container-icon:hover .icon-side{
     cursor: pointer;
     color: var(--white);
