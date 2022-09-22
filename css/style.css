@@ -496,7 +496,7 @@
     width: 4.3rem;
     height: 4.3rem;
     object-fit: cover;
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
     padding-left: 1rem;
 }
 
@@ -517,11 +517,12 @@
 
 .container-icon-left-footer{
     display: flex;
-}
-
-.container-icon-img-footer{
     padding-top: 2.5rem;
 }
+
+/* .container-icon-img-footer{
+    padding-top: 2.5rem;
+} */
 
 /* EFFETTI HOVER SU BLOCCO LEFT FOOTER */
 
@@ -679,11 +680,13 @@
    }
 
    .container-icon-left-footer{
-    flex-wrap: wrap;
+    flex-direction: column;
 }
     .icon-992px{
-        padding-top: -1.80rem;
+        padding-right: 0.80rem;
+        padding-top: 0.20rem;
     }
+    
 
 }
 
@@ -699,13 +702,13 @@
 
 /* MEDIA MAX WIDTH 575PX */
 
-@media screen and (max-width: 575px) and (min-width: 500px) {
+@media screen and (max-width: 575px) and (min-width: 570px) {
     .container-cards, .container-cards-2{
         width: 100%;
    }
 
    /* modifico footer */
-   
+
    .icon-center-footer{
     font-size: 1rem;
     color: var(--white);
