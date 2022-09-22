@@ -506,12 +506,18 @@
     margin-right: 30px;
 }
 
-.container-icon-img-footer{
-    padding-top: 40px;
-}
 
 .fa-heart{
-    padding-right: 10px;
+    padding-right: 5px;
+}
+
+.container-icon-left-footer{
+    padding-top: 40px;
+    display: flex;
+}
+
+.container-icon-img-footer{
+    padding: 5px;
 }
 
 /* EFFETTI HOVER SU BLOCCO LEFT FOOTER */
@@ -535,7 +541,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-   align-items:center;
+    align-items:center;
 }
 
 .icon-center-footer{
@@ -658,5 +664,34 @@
 @media screen and (max-width: 992px){
     .container-cards, .container-cards-2{
         width: calc((100% - 1.50rem) / 3);
+   }
+
+   .container-icon-left-footer{
+    flex-wrap: wrap;
+}
+    .icon-992px{
+        padding-top: -30px;
+    }
+
+.container-icon-img-footer{
+    padding: 0;
+}
+}
+
+
+/* MEDIA MAX WIDTH 768PX */
+
+@media screen and (max-width: 768px){
+    .container-cards, .container-cards-2{
+        width: calc((100% - 1.50rem) / 2);
+   }
+}
+
+
+/* MEDIA MAX WIDTH 575PX */
+
+@media screen and (max-width: 575px) and (min-width: 500px) {
+    .container-cards, .container-cards-2{
+        width: 100%;
    }
 }
