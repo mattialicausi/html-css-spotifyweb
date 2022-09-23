@@ -357,7 +357,7 @@
 }
 
 .section-side-1, .section-side-2{
-    padding-left: 1rem;
+   padding-left: 1rem;
 }
 
 .text-playlist{
@@ -626,7 +626,7 @@
     .container-cards, .container-cards-2{
         width: calc((100% - 1.50rem) / 2);
    }
-   .container-icon-img-footer i, .icon-center-footer, .icon-right-footer i{
+   .container-icon-img-footer, .icon-center-footer, .icon-right-footer i{
     font-size: 1.2rem;
     }
 
@@ -683,16 +683,14 @@
         font-size: 1.5rem;
         padding-top: 1rem;
     }
-
+ 
     #top-side{
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 0.5rem;
-    }
+        align-items: center;
+    } 
 
-    .container-section-side-4{
-        padding-left: 0.5rem;
-    }
+    .section-side-1, .section-side-2{
+        padding-left: 0;
+     }
 
     #side-bar{
         width: 100px;
