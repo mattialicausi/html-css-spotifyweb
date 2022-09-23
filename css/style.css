@@ -56,10 +56,8 @@
     display: block;
 }
 
-.debug{
-    border: 1px solid yellow;
-}
 /* DIMENSIONI LAYOUT */
+
 .wrapper{
     height: 100vh;
     width: 100%;
@@ -313,7 +311,6 @@
 
 .logo-1{
     height: 3rem;
-
 }
 
 .logo-1 img{
@@ -380,7 +377,6 @@
     border: 1px solid var(--black);
     cursor: pointer;
 }
-
 
 /* EFFETTO HOVER SU SIDE TOP */
 
@@ -472,7 +468,7 @@
 }
 
 .container-icon-img-footer{
-    font-size: 2.2rem;
+    font-size: 1.2rem;
 }
 
 .padding-left-footer{
@@ -500,8 +496,12 @@
 /* MODIFICO BARRA PLAY */
 
 .icon-center-footer, .icon-right-footer{
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     color: var(--white);
+}
+
+.big-play{
+    font-size: 2rem;
 }
 
 .time-play{
@@ -548,7 +548,7 @@
 }
 
 .play-hover:hover .hover-play{
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 
@@ -589,7 +589,7 @@
     font-size: 2.2rem;
 }
 
-/* MEDIA QUERY */
+            /* MEDIA QUERY */
 
 /* MEDIA MAX WIDTH 1200PX */
 
@@ -614,10 +614,6 @@
     .space-left-footer{
     padding-left: 0;
     }
-
-    .icon-center-footer{
-        font-size: 1.5rem;
-    }
 }
 
 /* MEDIA MAX WIDTH 768PX */
@@ -626,9 +622,6 @@
     .container-cards, .container-cards-2{
         width: calc((100% - 1.50rem) / 2);
    }
-   .container-icon-img-footer, .icon-center-footer, .icon-right-footer i{
-    font-size: 1.2rem;
-    }
 
     .time-play{
         font-size: 0.9rem;
@@ -671,7 +664,6 @@
     .subtitle-img-footer{
         font-size: 0.8rem;
     }
-
         /* MODIFICO SIDE */
 
     .d-none575px{
